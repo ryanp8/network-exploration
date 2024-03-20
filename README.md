@@ -2,6 +2,12 @@
 
 Tool to gather information about websites developed in Python, using asyncio and various command-line tools.
 
+## Usage
+Make sure you are using Python >=3.5 since async/await syntax is used.
+1. Install the dependencies listed in `requirements.txt`
+2. Run `python3 scan.py [.txt file with one website per line] out.json` to create a json file with the results.
+3. Run `python3 report.py out.json report.txt` to create a report summarizing the json file with tables.
+
 ## Sample output
 ```json
 [
